@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro cliente</title>
+    </head>
+    <body>
+        <form action="registro.php" method="POST">
+            
+            Nombre: <input type="text" name="nombreCli"><br/>
+            DNI: <input type="text" name="dni"><br/>
+            E-mail: <input type="text" name="emailCli"><br/>
+            Fecha nacimiento <input type="date" name="fechaNacCli"><br/>
+            Password: <input type="password" name="password"><br/>
+            Tipo de cuenta:
+            <select name="tipoCli">
+                <option value="premium">Premium
+                <option value="standard">Standard
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </body>
+</html>
+
